@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bvrith.moukthika.feedbackapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:text="BVRITH"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="341dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/feedback" />
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:onClick="Feedback"
+        android:background="#000080"
+        android:textColor="#FFFFFF"
+        android:text="Give Feedback" />
+
+    </LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bvrith.moukthika.feedbackapp.RetrieveActivity">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/retrieve" />
+    <Button
+        android:id="@+id/rd"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="105dp"
+        android:background="#01b09c"
+        android:text="Retrieve feedback"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/b"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rd"
+        android:layout_alignStart="@+id/rd"
+        android:layout_below="@+id/rd"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:background="#01b09c"
+        android:text="Back"
+        android:textColor="#ffffff"
+        android:onClick="back"/>
+</RelativeLayout>
